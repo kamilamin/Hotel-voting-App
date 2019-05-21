@@ -35,6 +35,7 @@ class Application extends Component {
       <div className="Application">
         <header className="Application--header">
           <h1>Lunch Rush</h1>
+          <h2>Restaurant Voting App</h2>
         </header>
         <div>
           {!currentUser && <SignIn />}

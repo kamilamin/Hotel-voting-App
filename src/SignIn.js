@@ -6,7 +6,7 @@ class SignIn extends Component {
     return (
       <div className="SignIn">
         <button onClick={() => auth.signInWithPopup(googleAuthProvider)}>
-          Sign In
+          Login with Google Account
         </button>
       </div>
     );
